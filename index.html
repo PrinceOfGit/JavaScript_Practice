@@ -13,11 +13,18 @@
 
         }
 
+        .Bart_1, .Homer_1, .Marge_1, .Lisa_1, .Meggie_1 {
+            display: flex;
+            width: 450px;
+            background-color: aqua;
+            margin-bottom: 100px;
+            font-family: Rockwell;
 
+        }
 
-
-
-
+        .Marge_1, .Meggie_1 {
+            width: 550px;
+        }
 
 
     </style>
@@ -283,6 +290,21 @@
         '<img src="https://upload.wikimedia.org/wikipedia/ru/9/9d/Maggie_Simpson.png" alt="Meggie">' +
         '</div>')
 
+
+    document.write('<div class="Bart_1">' + simpsons[0].name + ' ' + simpsons[0].surname + '-' + simpsons[0].age + ' ' + simpsons[0].info + ' '
+        + '<img src="https://upload.wikimedia.org/wikipedia/uk/a/aa/Bart_simpson.png" alt="Bart">' + '</div>')
+
+    document.write('<div class="Homer_1">' + simpsons[1].name + ' ' + simpsons[1].surname + '-' + simpsons[1].age + ' ' + simpsons[1].info + ' '
+        + '<img src="http://upload.wikimedia.org/wikipedia/en/0/02/Homer_Simpson_2006.png" alt="Homer">' + '</div>')
+
+    document.write('<div class="Marge_1">' + simpsons[2].name + ' ' + simpsons[2].surname + '-' + simpsons[2].age + ' ' + simpsons[2].info + ' '
+        + '<img src="https://upload.wikimedia.org/wikipedia/ru/0/0b/Marge_Simpson.png" alt="Marge">' + '</div>')
+
+    document.write('<div class="Lisa_1">' + simpsons[3].name + ' ' + simpsons[3].surname + '-' + simpsons[3].age + ' ' + simpsons[3].info + ' '
+        + '<img src="https://upload.wikimedia.org/wikipedia/ru/e/ec/Lisa_Simpson.png" alt="Lisa">' + '</div>')
+
+    document.write('<div class="Meggie_1">' + simpsons[4].name + ' ' + simpsons[4].surname + '-' + simpsons[4].age + ' ' + simpsons[4].info + ' '
+        + '<img src="https://upload.wikimedia.org/wikipedia/ru/9/9d/Maggie_Simpson.png" alt="Meggie">' + '</div>')
 
 </script>
 
