@@ -26,6 +26,42 @@
             width: 550px;
         }
 
+        .product_card_1, .product_card_2, .product_card_3, .product_card_4 img {
+            width: 150px;
+            height: 200px;
+
+        }
+
+        .product_card_1, .product_card_2, .product_card_3, .product_card_4 {
+            margin-bottom: 200px;
+            display: flex;
+            column-gap: 100px;
+            width: 300px;
+        }
+
+        .product_card_1 {
+            background-color: cornflowerblue;
+            font-family: Algerian;
+        }
+
+        .product_card_2 {
+            background-color: lemonchiffon;
+            font-family: Broadway;
+
+        }
+
+        .product_card_3 {
+            background-color: darkred;
+            font-family: "Arial Black";
+
+        }
+
+        .product_card_4 {
+            background-color: gray;
+            font-family: "Book Antiqua";
+        }
+
+
 
     </style>
 </head>
@@ -261,50 +297,104 @@
 
 
     document.write('<div class="Bart">' +
-        '<h2>' + simpsons[0].name + ' ' + simpsons[0].surname + '.' + ' ' + 'age' + ' ' + 'is' + ' ' + '-' + ' ' + simpsons[0].age + '</h2>' +
+        '<h2>' + simpsons[0].name + ' ' + simpsons[0].surname + '.' + ' ' + 'age' + ' ' + 'is' + ' ' + '-' + ' '
+        + simpsons[0].age + '</h2>' +
         '<p>' + simpsons[0].info + '</p>' +
-        '<img src="https://upload.wikimedia.org/wikipedia/uk/a/aa/Bart_simpson.png" alt="Bart">' +
+        '<img src="' + simpsons[0].photo + '" alt="Bart">' +
         '</div>')
 
     document.write('<div class="Homer">' +
-        '<h2>' + simpsons[1].name + ' ' + simpsons[1].surname + '.' + ' ' + 'age' + ' ' + 'is' + ' ' + '-' + ' ' + simpsons[1].age + '</h2>' +
+        '<h2>' + simpsons[1].name + ' ' + simpsons[1].surname + '.' + ' ' + 'age' + ' ' + 'is' + ' ' + '-' + ' '
+        + simpsons[1].age + '</h2>' +
         '<p>' + simpsons[1].info + '</p>' +
-        '<img src="http://upload.wikimedia.org/wikipedia/en/0/02/Homer_Simpson_2006.png" alt="Homer">' +
+        '<img src="' + simpsons[1].photo + '" alt="Homer">' +
         '</div>')
 
     document.write('<div class="Marge">' +
-        '<h2>' + simpsons[2].name + ' ' + simpsons[2].surname + '.' + ' ' + 'age' + ' ' + 'is' + ' ' + '-' + ' ' + simpsons[2].age + '</h2>' +
+        '<h2>' + simpsons[2].name + ' ' + simpsons[2].surname + '.' + ' ' + 'age' + ' ' + 'is' + ' ' + '-' + ' '
+        + simpsons[2].age + '</h2>' +
         '<p>' + simpsons[2].info + '</p>' +
-        '<img src="https://upload.wikimedia.org/wikipedia/ru/0/0b/Marge_Simpson.png" alt="Marge">' +
+        '<img src="' + simpsons[2].photo + '" alt="Marge">' +
         '</div>')
 
     document.write('<div class="Lisa">' +
-        '<h2>' + simpsons[3].name + ' ' + simpsons[3].surname + '.' + ' ' + 'age' + ' ' + 'is' + ' ' + '-' + ' ' + simpsons[3].age + '</h2>' +
+        '<h2>' + simpsons[3].name + ' ' + simpsons[3].surname + '.' + ' ' + 'age' + ' ' + 'is' + ' ' + '-' + ' '
+        + simpsons[3].age + '</h2>' +
         '<p>' + simpsons[3].info + '</p>' +
-        '<img src="https://upload.wikimedia.org/wikipedia/ru/e/ec/Lisa_Simpson.png" alt="Lisa">' +
+        '<img src="' + simpsons[3].photo + '" alt="Lisa">' +
         '</div>')
 
     document.write('<div class="Meggie">' +
-        '<h2>' + simpsons[4].name + ' ' + simpsons[4].surname + '.' + ' ' + 'age' + ' ' + 'is' + ' ' + '-' + ' ' + simpsons[4].age + '</h2>' +
+        '<h2>' + simpsons[4].name + ' ' + simpsons[4].surname + '.' + ' ' + 'age' + ' ' + 'is' + ' ' + '-' + ' '
+        + simpsons[4].age + '</h2>' +
         '<p>' + simpsons[4].info + '</p>' +
-        '<img src="https://upload.wikimedia.org/wikipedia/ru/9/9d/Maggie_Simpson.png" alt="Meggie">' +
+        '<img src="' + simpsons[4].photo + '" alt="Meggie">' +
         '</div>')
 
 
-    document.write('<div class="Bart_1">' + simpsons[0].name + ' ' + simpsons[0].surname + '-' + simpsons[0].age + ' ' + simpsons[0].info + ' '
-        + '<img src="https://upload.wikimedia.org/wikipedia/uk/a/aa/Bart_simpson.png" alt="Bart">' + '</div>')
+    document.write('<div class="Bart_1">' + simpsons[0].name + ' ' + simpsons[0].surname + '-' + simpsons[0].age + ' '
+        + simpsons[0].info + ' '
+        + '<img src="' + simpsons[0].photo + '" alt="Bart">' + '</div>')
 
-    document.write('<div class="Homer_1">' + simpsons[1].name + ' ' + simpsons[1].surname + '-' + simpsons[1].age + ' ' + simpsons[1].info + ' '
-        + '<img src="http://upload.wikimedia.org/wikipedia/en/0/02/Homer_Simpson_2006.png" alt="Homer">' + '</div>')
+    document.write('<div class="Homer_1">' + simpsons[1].name + ' ' + simpsons[1].surname + '-' + simpsons[1].age + ' '
+        + simpsons[1].info + ' '
+        + '<img src="' + simpsons[1].photo + '" alt="Homer">' + '</div>')
 
-    document.write('<div class="Marge_1">' + simpsons[2].name + ' ' + simpsons[2].surname + '-' + simpsons[2].age + ' ' + simpsons[2].info + ' '
-        + '<img src="https://upload.wikimedia.org/wikipedia/ru/0/0b/Marge_Simpson.png" alt="Marge">' + '</div>')
+    document.write('<div class="Marge_1">' + simpsons[2].name + ' ' + simpsons[2].surname + '-' + simpsons[2].age + ' '
+        + simpsons[2].info + ' '
+        + '<img src="' + simpsons[2].photo + '"alt="Marge">' + '</div>')
 
-    document.write('<div class="Lisa_1">' + simpsons[3].name + ' ' + simpsons[3].surname + '-' + simpsons[3].age + ' ' + simpsons[3].info + ' '
-        + '<img src="https://upload.wikimedia.org/wikipedia/ru/e/ec/Lisa_Simpson.png" alt="Lisa">' + '</div>')
+    document.write('<div class="Lisa_1">' + simpsons[3].name + ' ' + simpsons[3].surname + '-' + simpsons[3].age + ' '
+        + simpsons[3].info + ' '
+        + '<img src="' + simpsons[3].photo + '" alt="Lisa">' + '</div>')
 
-    document.write('<div class="Meggie_1">' + simpsons[4].name + ' ' + simpsons[4].surname + '-' + simpsons[4].age + ' ' + simpsons[4].info + ' '
-        + '<img src="https://upload.wikimedia.org/wikipedia/ru/9/9d/Maggie_Simpson.png" alt="Meggie">' + '</div>')
+    document.write('<div class="Meggie_1">' + simpsons[4].name + ' ' + simpsons[4].surname + '-' + simpsons[4].age + ' '
+        + simpsons[4].info + ' '
+        + '<img src="' + simpsons[4].photo + '" alt="Meggie">' + '</div>')
+
+    let products = [
+        {
+            title: 'milk',
+            price: '22',
+            image: 'https://www.mcqueensdairies.co.uk/wp-content/uploads/2019/02/Mcqueens_1litre_whole_organic-300x300-3.jpg'
+        },
+        {
+            title: 'juice',
+            price: '27',
+            image: 'https://images-na.ssl-images-amazon.com/images/I/61jL2GCuKLL._SX679_PIbundle-24,TopRight,0,0_AA679SH20_.jpg'
+        },
+        {
+            title: 'tomato',
+            price: '47',
+            image: 'https://dictionary.cambridge.org/ru/images/thumb/tomato_noun_001_17860.jpg?version=5.0.74'
+        },
+        {
+            title: 'tea',
+            price: '15',
+            image: 'https://yogiproducts.com/wp-content/uploads/2009/03/YT-US-CAR-RelaxedMind-C23-202201-V2-3DFront_withGlow-300DPI-1.png'
+        },
+    ]
+
+    document.write('<div class="product_card_1">' +
+        '<h3 class="' + products[0].title + '">' + 'Price' + ' ' + '-' + products[0].price + '</h3>' +
+        '<img src="' + products[0].image + '">' +
+        '</div>')
+
+    document.write('<div class="product_card_2">' +
+        '<h3 class="' + products[1].title + '">' + 'Price' + ' ' + '-' + products[1].price + '</h3>' +
+        '<img src="' + products[1].image + '">' +
+        '</div>')
+
+    document.write('<div class="product_card_3">' +
+        '<h3 class="' + products[2].title + '">' + 'Price' + ' ' + '-' + products[2].price + '</h3>' +
+        '<img src="' + products[2].image + '">' +
+        '</div>')
+
+    document.write('<div class="product_card_4">' +
+        '<h3 class="' + products[3].title + '">' + 'Price' + ' ' + '-' + products[3].price + '</h3>' +
+        '<img src="' + products[3].image + '">' +
+        '</div>')
+
 
 </script>
 
