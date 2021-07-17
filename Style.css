@@ -1,0 +1,14 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    flex-wrap: wrap;
+    column-gap: 100px;
+
+}
+
+.product_card {
+width: 200px;
+    padding-bottom: 30px;
+
+}
