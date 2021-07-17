@@ -88,6 +88,35 @@ while (m < new_row_2.length) {
     m ++
 }
 
+let new_row_3 = [3234, 54, 'Tea', 59, 'Cream', 'jar', 78, 4===4, 90, 'Sea']
+for (let q = 0; q < new_row_3.length; q++) {
+    if (typeof new_row_3[q] === 'number') {
+        console.log(new_row_3[q])
+    }
+}
+
+let array_3 = [];
+array_3[0] = 'Boomer';
+array_3[1] = 'Cross';
+array_3[2] = 9>8;
+array_3[3] = 34;
+array_3[4] = 90===90;
+array_3[5] = 'Max';
+array_3[6] = 367;
+array_3[7] = 32;
+array_3[8] = 'Child';
+array_3[9] = 'Prop';
+
+for (let t = 0; t < array_3.length; t++) {
+    console.log(array_3[t])
+}
+
+
+
+
+
+
+
 
 
 
