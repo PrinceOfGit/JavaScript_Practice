@@ -112,6 +112,18 @@ for (let t = 0; t < array_3.length; t++) {
 }
 
 
+//- Створити цикл for на 10  ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
+//- Створити цикл for на 100 ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
+//- Створити цикл for на 100 ітерацій з кроком 2. Вивести поточний номер кроку через console.log та document.write
+//- Створити цикл for на 100 ітерацій. Вивести тільки парні кроки. через console.log + document.write
+//- Створити цикл for на 100 ітерацій. Вивести тільки непарні кроки. через console.log + document.write
+
+for (let xp = 0; xp < 10; xp++ ) {
+    console.log(`step :`, xp);
+    document.write(`step :`, xp)
+}
+
+
 
 
 
