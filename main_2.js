@@ -55,6 +55,18 @@
 
 
 
+//let array_1 = [100, 40>4, 'Bro', 9, 'Food'];
+//array_2 (array_1)
+
+//function array_2 (arr) {
+    //for (let i = 0; i < arr.length; i++) {
+        //console.log(arr)
+    //}
+//}
+
+
+
+
 
 
 
